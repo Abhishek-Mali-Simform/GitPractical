@@ -12,3 +12,6 @@ git commit -m "Revised Commit"
 git push origin DropCommit
 git revert <hash-code> --no-edit
 git push origin DropCommit
+
+
+This text is to show the revised commit.
