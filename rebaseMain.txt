@@ -1,0 +1,29 @@
+This File is on Rebase Branch
+
+Commands:
+
+//Create Rebase branch
+git branch Rebase
+//checkout branch
+git checkout Rebase
+//edit create rebaseMain.txt
+gedit rebaseMain.txt
+//add file
+git add rebaseMain.txt
+//commit
+git commit -m "File Commit On Rebase Branch"
+//Create branch
+git branch rebaseExtra
+//Checkout branch
+git Checkout rebaseExtra
+//create & edit file
+gedit rebasOnDiffFile.txt
+//add file
+git add rebaseOnDiffFile.txt
+//commit
+git commit -m "File Commited on rebaseExtra Branch"
+//checkout branch
+git checkout Rebase
+//rebase files in rebase branch
+git rebase rebaseExtra Rebase
+
