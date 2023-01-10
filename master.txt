@@ -1,9 +1,15 @@
 Initial Commit in master File
 Used commands
 
-git init 
+git init
+//Create and editing master.txt file 
+gedit master.txt
+//Staging/adding file
 git add .
+//Commiting File
 git commit -m "Initial Commit"
+//Adding origin repo
 git remote add origin https://github.com/Abhishek-Mali-Simform/GitPractical.git
+//push on remote origin
 git push -u origin main
 
