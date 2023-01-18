@@ -1,0 +1,27 @@
+Pull Request Steps:
+-> Go to Pull Request
+-> Create New Pull request
+-> Compare Changes between two branches
+-> If Changes Found Create Pull Request
+
+
+Commands Used For Merge:
+
+//Creating PullMerge Branch 
+git branch PullMerge
+//Creating Extra Branch to merge file created in PullMerge
+git branch Extra
+//Enter Extra Branch
+git chec
+//creating and editing PullMerge.txt
+gedit PullMerge.txt
+//add file
+git add .
+//commit file
+git commit -m "File Saved in Extra Branch"
+//Enter PullMerge Branch
+git checkout PullMerge
+//Merging Extra Branch
+git merge PullMerge Extra
+
+
