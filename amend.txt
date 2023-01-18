@@ -1,0 +1,9 @@
+Commands:
+
+git branch ChangeCommitMessage
+git checkout ChangeCommitMessage
+gedit amend.txt
+git add amend.txt
+git commit -m "Amend Commit"
+//Change commited message
+git commit --amend
